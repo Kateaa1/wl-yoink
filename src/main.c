@@ -8,7 +8,7 @@ int main(int argc, char *argv[]){
     }
 
     if (strcmp(argv[1], "--help") == 0){
-        printf("USAGE= %s [file]\n", argv[0]);
+        printf("USAGE= %s <target file>\n", argv[0]);
         return 0;
     } else {
         FILE *pSource;

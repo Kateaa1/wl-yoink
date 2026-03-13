@@ -13,7 +13,7 @@ gcc
 `git clone https://github.com/Kateaa1/wl-yoink && cd wl-yoink && make install`
 
 ## Usage
-`wl-yoink [target file] # Copies file into clipboard`
+`wl-yoink <target file> # Copies file into clipboard`
 `wl-yoink --help`
 
 ## Example

@@ -25,6 +25,6 @@ install: $(TARGET)
 	install -m 755 $(TARGET) $(BINDIR)
 
 uninstall:
-	rm -f $(BINDIR)/myprogram
+	rm -f $(BINDIR)/wl-yoink
 
 .PHONY: clean install uninstall
